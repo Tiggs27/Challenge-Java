@@ -6,10 +6,17 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+/*
+ * Class responsible for tests
+ */
 class CalculatorApplicationTests {
 
 	private final CalculatorService calculatorService = new CalculatorService();
 
+	/*
+	 * Does the calculation, and compares results with the expected
+	 */
 	@Test
     void testAdd() {
         CalculatorResult result = calculatorService.add("1", "2");

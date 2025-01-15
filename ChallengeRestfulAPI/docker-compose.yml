@@ -38,6 +38,8 @@ services:
       - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     networks:
       - mynetwork
+    volumes:
+      - ./logs:/logs
 
 networks:
   mynetwork:

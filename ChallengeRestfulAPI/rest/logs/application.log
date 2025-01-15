@@ -1,0 +1,24 @@
+2025-01-15T09:31:01.678Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.RestModuleApplicationTests  : Starting RestModuleApplicationTests using Java 23.0.1 with PID 3813 (started by tiagoconceicao in /Users/tiagoconceicao/Restful-Calculator /ChallengeRestfulAPI/rest)
+2025-01-15T09:31:01.679Z DEBUG 3813 --- [Rest Module] [main] c.Tiago.rest.RestModuleApplicationTests  : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-15T09:31:01.679Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.RestModuleApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-01-15T09:31:02.351Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.RestModuleApplicationTests  : Started RestModuleApplicationTests in 0.825 seconds (process running for 1.271)
+2025-01-15T09:31:02.480Z  INFO 3813 --- [Rest Module] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-01-15T09:31:02.480Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-15T09:31:02.480Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-01-15T09:31:02.505Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : /sub request  a = 5 and b = 10
+2025-01-15T09:31:02.506Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : Result: -5
+2025-01-15T09:31:02.541Z  INFO 3813 --- [Rest Module] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-01-15T09:31:02.541Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-15T09:31:02.541Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-01-15T09:31:02.543Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : /mul request  a = 5 and b = 10
+2025-01-15T09:31:02.543Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : Result: 50
+2025-01-15T09:31:02.547Z  INFO 3813 --- [Rest Module] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-01-15T09:31:02.548Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-15T09:31:02.548Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-01-15T09:31:02.548Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : /div request  a = 5 and b = 10
+2025-01-15T09:31:02.549Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : Result: 0.5
+2025-01-15T09:31:02.553Z  INFO 3813 --- [Rest Module] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-01-15T09:31:02.553Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-15T09:31:02.553Z  INFO 3813 --- [Rest Module] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-01-15T09:31:02.554Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : /add request  a = 5 and b = 10
+2025-01-15T09:31:02.554Z  INFO 3813 --- [Rest Module] [main] c.Tiago.rest.controller.ControllerRest   : Result: 15

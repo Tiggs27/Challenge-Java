@@ -12,8 +12,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
+/**
+ *  Class that configures Kafka for sending messages 
+ */
 public class KafkaConfig {
 
+    /**
+    *  Configures the kafka producer with the properties listed
+    */
     @Bean
     public ProducerFactory<String, String> producerFactory() {
         Map<String, Object> configProps = new HashMap<>();
@@ -23,6 +29,9 @@ public class KafkaConfig {
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 
+    /**
+     *  Gives kafkatemplate to send messages to kafka
+     */
     @Bean
     public KafkaTemplate<String, String> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
