@@ -50,7 +50,7 @@ Challenge of a Restful API Calculator for a calculator (add,sub,mul,div)
         docker exec -it challengerestfulapi-kafka-1 bash
 
     Check the calculations being executed
-    
+
         kafka-console-consumer.sh --topic calculate --bootstrap-server localhost:9092 --from-beginning
 
 # Testing 
@@ -58,7 +58,3 @@ Challenge of a Restful API Calculator for a calculator (add,sub,mul,div)
 Go back to each module and do the following command to run the unit test:
 
     mvn test
-
-## Test Kafka with docker
-
-Go to the terminal and write the following command 
